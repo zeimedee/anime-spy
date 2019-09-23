@@ -1,6 +1,6 @@
 ###Description
 
-this is a cli created to find basic information on anime, is uses the unofficial MyAnimeList api jikan
+this is a cli created to find basic information on anime, it uses the unofficial MyAnimeList api jikan
 
 ###USAGE
 
