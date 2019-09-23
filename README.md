@@ -1,4 +1,4 @@
-https://img.shields.io/badge/npm-v.1.0.0-blue
+[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
 ###Description
 
