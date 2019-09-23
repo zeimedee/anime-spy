@@ -1,3 +1,5 @@
+https://img.shields.io/badge/npm-v.1.0.0-blue
+
 ###Description
 
 this is a cli created to find basic information on anime, is uses the unofficial MyAnimeList api jikan
