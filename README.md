@@ -8,7 +8,11 @@ this is a cli created to find basic information on anime, it uses the unofficial
 
 install it with 
 
+###
+
 npm install -g @zieme/anime-spy 
+### 
 
 type in anime-spy followed by the title of the anime in the terminal
+###
 -> anime-spy [title]
