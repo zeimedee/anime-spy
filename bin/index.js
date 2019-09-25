@@ -1,16 +1,13 @@
 #!/usr/bin/env node
 
 const axios = require('axios');
-const readline = require('readline');
+var title = process.argv[2];
 var id;
-const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout
-});
 
-rl.question('Enter anime title 👉🏼 ', (title) => { 
+
+
  
-        axios.get(`https://api.jikan.moe/v3/search/anime?q=${title}&limit=1`)
+         axios.get(`https://api.jikan.moe/v3/search/anime?q=${title}&limit=1`)
              .then((res) => { id = res.data.results[0].mal_id  
             
                  axios.get(`https://api.jikan.moe/v3/anime/${id}`)
@@ -26,5 +23,4 @@ rl.question('Enter anime title 👉🏼 ', (title) => {
              )
             .catch(error => console.log(error))
 
-            rl.close(); 
-        });
+         
