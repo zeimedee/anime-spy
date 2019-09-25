@@ -10,4 +10,5 @@ install it with
 
 npm install -g @zieme/anime-spy 
 
-type in anime-spy in your terminal and follow the prompt
+type in anime-spy followed by the title of the anime in the terminal
+-> anime-spy [title]
